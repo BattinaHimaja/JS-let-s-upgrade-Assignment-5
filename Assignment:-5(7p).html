@@ -1,0 +1,35 @@
+<!--Generated from HTML Code Play-->
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+function prime(){
+var a=Number(prompt("Enter n so that prime numbers from 2 to n will be generated"))
+document.write(`prime numbers in range 2 to ${a} are<br>`);
+for (var  i = 2;i <= a; i=i+1){
+var k=0;
+for(var j = 1;j <= i;j=j+1){
+if(i %j == 0){
+k=k+1;
+}
+}
+if(k <= 2){
+document.write(i+"<br>");
+}
+}
+}
+</script>
+</head>
+
+<body>
+
+ <button type="button" onclick="prime();"><font size="500" color="blue">click me to generate prime numbers</button>
+
+</body>
+</html>
+<!--Generated from HTML Code Play.
+ More application
+ Android Code Play
+ SQL Code Play-->

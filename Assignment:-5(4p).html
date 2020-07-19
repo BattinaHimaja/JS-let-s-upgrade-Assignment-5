@@ -1,0 +1,29 @@
+<!--Generated from HTML Code Play-->
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+function calculator(){
+var a=prompt("Enter your expression to evaluate ");
+if(a.includes("√")){
+a=a.replace("√","Math.sqrt(");
+a=a+")"
+}
+alert(eval(a));
+}
+</script>
+</head>
+
+<body>
+
+ <button type="button" onclick="calculator()" >click me to get calculator</button>
+
+</body>
+
+</html>
+<!--Generated from HTML Code Play.
+ More application
+ Android Code Play
+ SQL Code Play-->

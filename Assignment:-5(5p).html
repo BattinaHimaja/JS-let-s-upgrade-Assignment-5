@@ -1,0 +1,38 @@
+<!--Generated from HTML Code Play-->
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+function commission(){
+var comm;
+var sales=Number(prompt("Dear employee , Enter sales made by you","sales"))
+if((sales >= 0) && (sales <= 5000)){
+comm=sales*0.02;
+alert(`your commission is ${comm} `);
+}
+else if((sales > 5000) && (sales<=10000)){
+comm=sales*0.05;
+alert(`your commission is ${comm}`);
+}
+else if((sales > 10000) && (sales <= 20000)){
+comm=sales*0.07;
+alert(`your commission is ${comm}`)
+}
+else if((sales > 20000)){
+comm=sales*0.10;
+alert(`your commission is ${comm}`);
+}
+}
+</script>
+</head>
+
+<body> 
+<button type="button" onclick="commission();">click me to know your commission </button>
+</body>
+</html>
+<!--Generated from HTML Code Play.
+ More application
+ Android Code Play
+ SQL Code Play-->
